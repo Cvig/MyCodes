@@ -101,7 +101,7 @@ class genUrls(object):
             self.recursive(lst, index+1, str + '.' + each, urlList)
 
 
-#Test Class which prints the output
+#Test Class which prints the output, can add more features to test, this is just a structure
 class testGenUrls():
 
     def testGenUrl1(self, lst):
@@ -140,11 +140,13 @@ class testGenUrls():
         if len(a) == num:
             print 'Test Passed'
 
-
+#Test
+'''
 lst = [['www','http','https'], ['api','games'], ['paypal', 'paypal-hub','paypal-stuff'],['com','org','co']]
 s = testGenUrls()
 s.testGenUrl1(lst)
 s.testGenUrl2(lst)
 s.testGenUrl3(lst)
+'''
 
 

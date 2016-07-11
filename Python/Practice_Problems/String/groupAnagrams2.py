@@ -1,5 +1,3 @@
-#Accepted on leetcode. O(n) complexity
-#Questions to ask: when I group anagrams, do I need to store in sorted order? Answer is yes here
 class Solution(object):
     def groupAnagrams(self, strs):
         """

@@ -6,5 +6,8 @@ def nested_list_sum(lst):
     else:
         return lst[0] + nested_list_sum(lst[1:])
 
+#Test
+'''
 a = nested_list_sum([3,[1]])
 print a
+'''

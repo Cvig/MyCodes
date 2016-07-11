@@ -23,7 +23,9 @@ class Solution(object):
             if num%i ==0:
                 return False
         return True
-
+#Test
+'''
 s = Solution()
 r= s.PrimeFibonacciNumber(2904353)
 print r
+'''

@@ -1,4 +1,3 @@
-#This solution is accepted on Leetcode
 #You are given two linked lists representing two non-negative numbers.
 # The digits are stored in reverse order and each of their nodes contain a single digit.
 # Add the two numbers and return it as a linked list.
@@ -69,7 +68,7 @@ class Solution(object):
                 l3.next = node
                 l3 = l3.next
                 l1 = l1.next #loop can run forever if u dont write this
-        if carry:  #what about the last carry??
+        if carry:  #for the last carry
             node = ListNode(carry)
             l3.next = node
         return dummy.next

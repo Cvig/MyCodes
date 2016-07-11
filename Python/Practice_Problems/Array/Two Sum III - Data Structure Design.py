@@ -23,7 +23,7 @@ class TwoSum(object):
         if number in self.numsCount:
             self.numsCount[number] +=1
         else:
-            self.numsCount[number] = 1 #check self. kind of errors
+            self.numsCount[number] = 1 
 
 
 
@@ -44,7 +44,6 @@ class TwoSum(object):
         return False
 
 
-print len([])
 # Your TwoSum object will be instantiated and called as such:
 # twoSum = TwoSum()
 # twoSum.add(number)

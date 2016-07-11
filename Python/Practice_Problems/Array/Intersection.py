@@ -29,10 +29,11 @@ class Solution(object):
                 dic_l3[l2[j]] -= 1 #decrement 1
         return l3
 
-# l1 = [2,2,3,4,5]
-# l2 = [4,7,8,2]
+#Test
+'''
 l1 =[5,8]
 l2 =[8,0]
 s = Solution()
 r = s.intersection(l1,l2)
 print r
+'''

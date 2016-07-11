@@ -1,4 +1,3 @@
-#looks like working
 class Solution(object):
     def mergeTwoLists(self, l1,l2):
         l3= []
@@ -15,7 +14,7 @@ class Solution(object):
             else:
                 l3.append(l2[j])
                 j = j+1
-
+#Test
 # s = Solution()
 # l3 = s.mergeTwoLists([1,2,3,4,9],[5,6,7,8])
 # print l3

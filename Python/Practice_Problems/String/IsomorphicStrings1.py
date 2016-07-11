@@ -1,4 +1,4 @@
-#Simple O(n^2) method is as follows(This has worst performance out of three):
+#Simple O(n^2) method is as follows(This has worst performance out of three Solutions I have tried and are uploaded):
 class Solution(object):
     def isIsomorphic(self, s, t):
         """
